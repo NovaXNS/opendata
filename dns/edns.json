@@ -1,0 +1,110 @@
+[
+  {
+    "Value": 1,
+    "Name": "LLQ",
+    "Status": "Optional",
+    "Reference": "[RFC8764]"
+  },
+  {
+    "Value": 2,
+    "Name": "UL",
+    "Status": "On-hold",
+    "Reference": "[http://files.dns-sd.org/draft-sekar-dns-ul.txt]"
+  },
+  {
+    "Value": 3,
+    "Name": "NSID",
+    "Status": "Standard",
+    "Reference": "[RFC5001]"
+  },
+  {
+    "Value": 5,
+    "Name": "DAU",
+    "Status": "Standard",
+    "Reference": "[RFC6975]"
+  },
+  {
+    "Value": 6,
+    "Name": "DHU",
+    "Status": "Standard",
+    "Reference": "[RFC6975]"
+  },
+  {
+    "Value": 7,
+    "Name": "N3U",
+    "Status": "Standard",
+    "Reference": "[RFC6975]"
+  },
+  {
+    "Value": 8,
+    "Name": "edns-client-subnet",
+    "Status": "Optional",
+    "Reference": "[RFC7871]"
+  },
+  {
+    "Value": 9,
+    "Name": "EDNS EXPIRE",
+    "Status": "Optional",
+    "Reference": "[RFC7314]"
+  },
+  {
+    "Value": 10,
+    "Name": "COOKIE",
+    "Status": "Standard",
+    "Reference": "[RFC7873]"
+  },
+  {
+    "Value": 11,
+    "Name": "edns-tcp-keepalive",
+    "Status": "Standard",
+    "Reference": "[RFC7828]"
+  },
+  {
+    "Value": 12,
+    "Name": "Padding",
+    "Status": "Standard",
+    "Reference": "[RFC7830]"
+  },
+  {
+    "Value": 13,
+    "Name": "CHAIN",
+    "Status": "Standard",
+    "Reference": "[RFC7901]"
+  },
+  {
+    "Value": 14,
+    "Name": "edns-key-tag",
+    "Status": "Optional",
+    "Reference": "[RFC8145]"
+  },
+  {
+    "Value": 15,
+    "Name": "Extended DNS Error",
+    "Status": "Standard",
+    "Reference": "[RFC8914]"
+  },
+  {
+    "Value": 16,
+    "Name": "EDNS-Client-Tag",
+    "Status": "Optional",
+    "Reference": "[draft-bellis-dnsop-edns-tags]"
+  },
+  {
+    "Value": 17,
+    "Name": "EDNS-Server-Tag",
+    "Status": "Optional",
+    "Reference": "[draft-bellis-dnsop-edns-tags]"
+  },
+  {
+    "Value": 20292,
+    "Name": "Umbrella Ident",
+    "Status": "Optional",
+    "Reference": "[https://developer.cisco.com/docs/cloud-security/#!integrating-network-devices/rdata-description][Cisco_CIE_DNS_team]"
+  },
+  {
+    "Value": 26946,
+    "Name": "DeviceID",
+    "Status": "Optional",
+    "Reference": "[https://developer.cisco.com/docs/cloud-security/#!network-devices-getting-started/response-codes][Cisco_CIE_DNS_team]"
+  }
+]

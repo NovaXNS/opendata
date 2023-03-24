@@ -1,0 +1,134 @@
+[
+  {
+    "RCODE": 0,
+    "Name": "NoError",
+    "Description": "No Error",
+    "Reference": "[RFC1035]"
+  },
+  {
+    "RCODE": 1,
+    "Name": "FormErr",
+    "Description": "Format Error",
+    "Reference": "[RFC1035]"
+  },
+  {
+    "RCODE": 2,
+    "Name": "ServFail",
+    "Description": "Server Failure",
+    "Reference": "[RFC1035]"
+  },
+  {
+    "RCODE": 3,
+    "Name": "NXDomain",
+    "Description": "Non-Existent Domain",
+    "Reference": "[RFC1035]"
+  },
+  {
+    "RCODE": 4,
+    "Name": "NotImp",
+    "Description": "Not Implemented",
+    "Reference": "[RFC1035]"
+  },
+  {
+    "RCODE": 5,
+    "Name": "Refused",
+    "Description": "Query Refused",
+    "Reference": "[RFC1035]"
+  },
+  {
+    "RCODE": 6,
+    "Name": "YXDomain",
+    "Description": "Name Exists when it should not",
+    "Reference": "[RFC2136][RFC6672]"
+  },
+  {
+    "RCODE": 7,
+    "Name": "YXRRSet",
+    "Description": "RR Set Exists when it should not",
+    "Reference": "[RFC2136]"
+  },
+  {
+    "RCODE": 8,
+    "Name": "NXRRSet",
+    "Description": "RR Set that should exist does not",
+    "Reference": "[RFC2136]"
+  },
+  {
+    "RCODE": 9,
+    "Name": "NotAuth",
+    "Description": "Server Not Authoritative for zone",
+    "Reference": "[RFC2136]"
+  },
+  {
+    "RCODE": 9,
+    "Name": "NotAuth",
+    "Description": "Not Authorized",
+    "Reference": "[RFC8945]"
+  },
+  {
+    "RCODE": 10,
+    "Name": "NotZone",
+    "Description": "Name not contained in zone",
+    "Reference": "[RFC2136]"
+  },
+  {
+    "RCODE": 11,
+    "Name": "DSOTYPENI",
+    "Description": "DSO-TYPE Not Implemented",
+    "Reference": "[RFC8490]"
+  },
+  {
+    "RCODE": 16,
+    "Name": "BADVERS",
+    "Description": "Bad OPT Version",
+    "Reference": "[RFC6891]"
+  },
+  {
+    "RCODE": 16,
+    "Name": "BADSIG",
+    "Description": "TSIG Signature Failure",
+    "Reference": "[RFC8945]"
+  },
+  {
+    "RCODE": 17,
+    "Name": "BADKEY",
+    "Description": "Key not recognized",
+    "Reference": "[RFC8945]"
+  },
+  {
+    "RCODE": 18,
+    "Name": "BADTIME",
+    "Description": "Signature out of time window",
+    "Reference": "[RFC8945]"
+  },
+  {
+    "RCODE": 19,
+    "Name": "BADMODE",
+    "Description": "Bad TKEY Mode",
+    "Reference": "[RFC2930]"
+  },
+  {
+    "RCODE": 20,
+    "Name": "BADNAME",
+    "Description": "Duplicate key name",
+    "Reference": "[RFC2930]"
+  },
+  {
+    "RCODE": 21,
+    "Name": "BADALG",
+    "Description": "Algorithm not supported",
+    "Reference": "[RFC2930]"
+  },
+  {
+    "RCODE": 22,
+    "Name": "BADTRUNC",
+    "Description": "Bad Truncation",
+    "Reference": "[RFC8945]"
+  },
+  {
+    "RCODE": 23,
+    "Name": "BADCOOKIE",
+    "Description": "Bad/missing Server Cookie",
+    "Reference": "[RFC7873]"
+  }
+]

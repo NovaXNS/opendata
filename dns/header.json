@@ -1,0 +1,38 @@
+[
+  {
+    "Bit": 5,
+    "Flag": "AA",
+    "Description": "Authoritative Answer",
+    "Reference": "[RFC1035]"
+  },
+  {
+    "Bit": 6,
+    "Flag": "TC",
+    "Description": "Truncated Response",
+    "Reference": "[RFC1035]"
+  },
+  {
+    "Bit": 7,
+    "Flag": "RD",
+    "Description": "Recursion Desired",
+    "Reference": "[RFC1035]"
+  },
+  {
+    "Bit": 8,
+    "Flag": "RA",
+    "Description": "Recursion Available",
+    "Reference": "[RFC1035]"
+  },
+  {
+    "Bit": 10,
+    "Flag": "AD",
+    "Description": "Authentic Data",
+    "Reference": "[RFC4035][RFC6840][RFC Errata 4924]"
+  },
+  {
+    "Bit": 11,
+    "Flag": "CD",
+    "Description": "Checking Disabled",
+    "Reference": "[RFC4035][RFC6840][RFC Errata 4927]"
+  }
+]

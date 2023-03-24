@@ -1,0 +1,37 @@
+[
+  {
+    "Decimal": 1,
+    "Hexadecimal": "0x0001",
+    "Class": "IN",
+    "Name": "Internet (IN)",
+    "Reference": "[RFC1035]"
+  },
+  {
+    "Decimal": 3,
+    "Hexadecimal": "0x0003",
+    "Class": "CH",
+    "Name": "Chaos (CH)",
+    "Reference": "[D. Moon, \"Chaosnet\", A.I. Memo 628, Massachusetts Institute of Technology Artificial Intelligence Laboratory, June 1981.]"
+  },
+  {
+    "Decimal": 4,
+    "Hexadecimal": "0x0004",
+    "Class": "HS",
+    "Name": "Hesiod (HS)",
+    "Reference": "[Dyer, S., and F. Hsu, \"Hesiod\", Project Athena Technical Plan - Name Service, April 1987.]"
+  },
+  {
+    "Decimal": 254,
+    "Hexadecimal": "0x00FE",
+    "Class": "NONE",
+    "Name": "QCLASS NONE",
+    "Reference": "[RFC2136]"
+  },
+  {
+    "Decimal": 255,
+    "Hexadecimal": "0x00FF",
+    "Class": "ANY",
+    "Name": "QCLASS * (ANY)",
+    "Reference": "[RFC1035]"
+  }
+]
